@@ -1,52 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Portfolio</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+ 
   <header>
-    <h1>My Portfolio</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About Me</a></li>
+    <nav class="navbar">
+      <div class="logo">✨ MyPortfolio</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
+  
   <main>
-    <section id="about">
+    
+    <section class="hero">
+      <h1>Hello, I'm <span>Leona</span> 🌸</h1>
+      <p>Aspiring Web Designer & Developer</p>
+      <a href="#contact" class="cta-btn">Get in Touch</a>
+    </section>
+
+    
+    <section id="about" class="about">
       <h2>About Me</h2>
-      <p>Welcome to my portfolio! I’m Leona Anne O. Sulit, an IT student.</p>
+      <p>
+        I’m passionate about creating visually appealing and user-friendly
+        websites. I love blending creativity with functionality to deliver
+        beautiful designs that work across devices.
+      </p>
+      <img src="1000057386.jpg" alt="My Profile Picture" />
     </section>
 
-    <section id="projects">
+    
+    <section id="projects" class="projects">
       <h2>Projects</h2>
-      <p>Here are some of my works.</p>
-      
-      <article>
-        <h3>My Portfolio</h3>
-        <img src="C:\Users\Student.LAB2-PC9\Documents\SULIT (ADS)\MyPortfolio\images\Screenshot (111).png" alt="Project preview 1">
-        <img src="C:\Users\Student.LAB2-PC9\Documents\SULIT (ADS)\MyPortfolio\images\Screenshot (112).png" alt="Project preview 2">
-        <img src="C:\Users\Student.LAB2-PC9\Documents\SULIT (ADS)\MyPortfolio\images\Screenshot (114).png" alt="Project preview 3">
-        <p>Brief description of the project.</p>
-      </article>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="images/Screenshot 2025-10-01 223514.png" alt="Project 1 Screenshot" />
+          <h3>Project One</h3>
+          
+        </div>
+        <div class="project-card">
+          <img src="images/Screenshot 2025-10-01 223129.png" alt="Project 2 Screenshot" />
+          <h3>Project Two</h3>
+         
+        </div>
+        <div class="project-card">
+          <img src="images/Screenshot 2025-10-01 220334.png" alt="Project 3 Screenshot" />
+          <h3>Project Three</h3>
+         
+        </div>
+      </div>
     </section>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email me at: <a href="mailto:sulitleonaanne@gmail.com">sulitleonaanne@gmail.com</a></p>
+    
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <p>Interested in working together? Let’s connect!</p>
+      <a href="sulitleonaanne@gmail.com" class="cta-btn">sulitleonaanne@gmail.com</a>
     </section>
   </main>
 
+  
   <footer>
-    <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    <p>© 2025 My Portfolio | Designed with 💖</p>
   </footer>
 
-  <script src="js/main.js"></script>
+  <script src="js.js"></script>
 </body>
 </html>
